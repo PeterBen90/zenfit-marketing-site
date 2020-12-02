@@ -2866,11 +2866,27 @@ figure figcaption {
 	.owl-carousel .owl-item img {
 		width: 100% !important;
 	}
+
+	.list-unstyled {
+		padding-left: 0 !important;
+	}
+}
+
+.list-unstyled {
+	padding-left: 15%;
 }
 
 @media (max-width: 768px) {
 	.content2 {
 		text-align: left !important;
+	}
+
+	.section-title {
+		margin-bottom: 50px !important;
+	}
+
+	.list-unstyled {
+		padding-left: 0 !important;
 	}
 }
 
