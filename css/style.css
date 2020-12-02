@@ -2803,6 +2803,11 @@ figure figcaption {
 		font-size: 14px;
 	}
 
+	#reviews-section .section-title {
+		color: #ffffff !important;
+		font-size: 2rem !important;
+	}
+
 	.app-store {
 		font-size: 14px;
 	}
@@ -2968,7 +2973,6 @@ figure figcaption {
 
 #reviews-section {
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0.7) !important;
 }
 
 #reviews-section .section-title {
