@@ -2968,11 +2968,12 @@ figure figcaption {
 
 #reviews-section {
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.7) !important;
 }
 
 #reviews-section .section-title {
 	color: #ffffff !important;
+	font-size: 2.5rem;
 }
 
 .market-btn {
