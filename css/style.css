@@ -2303,26 +2303,17 @@ body:after {
 .custom-direction {
 	position: relative;
 	z-index: 99;
-	border-radius: 7px;
-	position: absolute;
-	right: -50px;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	border-radius: 5px;
 	display: inline-block;
 	background: #397a8e;
 }
-@media (max-width: 991.98px) {
+
+@media (max-width: 500px) {
 	.custom-direction {
-		bottom: -25px;
-		top: auto !important;
-		right: 50% !important;
-		-webkit-transform: translateX(50%);
-		-ms-transform: translateX(50%);
-		transform: translateX(50%);
+		display: none;
 	}
 }
+
 .custom-direction a {
 	padding: 10px 20px;
 	display: inline-block;
@@ -2866,6 +2857,10 @@ figure figcaption {
 	#about-section {
 		padding-top: 50px !important;
 	}
+
+	.owl-carousel .owl-item img {
+		width: 100% !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -2965,4 +2960,8 @@ figure figcaption {
 	top: -8px;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important;
 	transition: ease 0.5s;
+}
+
+.owl-carousel .owl-item img {
+	width: 65%;
 }
