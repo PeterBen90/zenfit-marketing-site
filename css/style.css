@@ -2909,7 +2909,7 @@ figure figcaption {
 }
 
 #features-section {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #about-section {
@@ -2945,4 +2945,24 @@ figure figcaption {
 	height: 200px;
 	width: auto;
 	padding: 25px;
+}
+
+.btn.btn-pricing {
+	border: 3px solid #397a8e;
+	background-color: #397a8e;
+	color: #ffffff;
+	border-radius: 5px;
+	position: relative;
+	top: 0;
+	transition: ease 0.5s;
+	padding: 10px 25px 10px 25px;
+	margin-top: 20px !important;
+}
+.btn.btn-pricing:hover {
+	background: #000000;
+	border-color: #000000;
+	color: #ffffff;
+	top: -8px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important;
+	transition: ease 0.5s;
 }
