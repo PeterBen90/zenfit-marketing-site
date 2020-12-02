@@ -825,7 +825,7 @@ body:after {
 	height: calc(20vh);
 }
 .site-blocks-cover h1 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 400;
 	color: #fff;
 	font-weight: 900;
@@ -842,7 +842,7 @@ body:after {
 	font-weight: 300;
 }
 .site-blocks-cover .desc {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 300;
 }
 .site-blocks-cover .desc a {
