@@ -2759,8 +2759,8 @@ figure figcaption {
 	border: 3px solid #ffffff;
 	color: #fff;
 	border-radius: 5px;
-	padding-top: 10px !important;
-	padding-bottom: 10px !important;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
 	font-size: 20px;
 	position: relative;
 	top: 0;
@@ -2836,8 +2836,10 @@ figure figcaption {
 
 	.btn.btn-hero2 {
 		border-radius: 5px;
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+		padding-left: 33px !important;
+		padding-right: 33px !important;
 		font-size: 14px;
 	}
 
