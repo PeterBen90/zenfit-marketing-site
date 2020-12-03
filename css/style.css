@@ -790,6 +790,12 @@ body:after {
 	background-image: url(/images/background.png);
 }
 
+@media (max-width: 1600px) {
+	#features-section {
+		background-image: url(/images/Background-copy.png) !important;
+	}
+}
+
 @media (max-width: 500px) {
 	.site-blocks-cover {
 		background-image: url(/images/phone-hero.png) !important;
