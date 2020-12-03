@@ -782,9 +782,21 @@ body:after {
 	/* background-image: url(/images/Hero.png); */
 }
 
+#features-section {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/images/background.png);
+}
+
 @media (max-width: 500px) {
 	.site-blocks-cover {
 		background-image: url(/images/phone-hero.png) !important;
+	}
+
+	#features-section {
+		background-image: none !important;
 	}
 }
 
