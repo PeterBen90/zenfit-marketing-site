@@ -2900,6 +2900,10 @@ figure figcaption {
 		padding-top: 200px !important;
 		padding-bottom: 200px !important;
 	}
+
+	.site-footer .footer-heading {
+		margin-top: 20px;
+	}
 }
 
 form {
